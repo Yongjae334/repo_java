@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class problem01 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
 		System.out.print("저장할 양수 개수를 입력하세요:");
 		int size = scanner.nextInt();
 		int[] numbers = new int[size]; // 배열 생성
